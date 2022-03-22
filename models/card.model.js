@@ -2,23 +2,23 @@ import mongoose from "mongoose";
 
 const Card = new mongoose.Schema({
 	CardNumber: {
-		type: Number,
+		type: String,
 		minlength: 16,
 		maxlength: 16,
 		required: true
 	},
 	ExpDate: {
-		type: Number,
+		type: String,
 		required: true
 	},
 	Cvv: {
-		type: Number,
+		type: String,
 		minlength: 3,
 		maxlength: 3,
 		required: true
 	},
 	Amount: {
-		type: Number,
+		type: String,
 		required: true
 	},
 	RequestId: {
