@@ -18,7 +18,7 @@ const Card = new mongoose.Schema({
 		required: true
 	},
 	Amount: {
-		type: String,
+		type: Number,
 		required: true
 	},
 	RequestId: {

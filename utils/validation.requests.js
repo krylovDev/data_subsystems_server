@@ -5,7 +5,7 @@ const creditCardValidateValues = celebrate({
 		CardNumber: Joi.string().required(),
 		ExpDate: Joi.string().required(),
 		Cvv: Joi.string().required(),
-		Amount: Joi.string().required(),
+		Amount: Joi.number().required(),
 	})
 })
 export default creditCardValidateValues
